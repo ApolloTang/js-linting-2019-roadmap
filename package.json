@@ -6,6 +6,7 @@
     "@typescript-eslint/parser": "^1.13.0",
     "eslint": "^6.1.0",
     "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "typescript": "^3.5.3"
   },
   "dependencies": {

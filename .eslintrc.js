@@ -18,10 +18,15 @@ module.exports = {
     },
     "plugins": [
       "react",
+      "react-hooks",
       "@typescript-eslint"
     ],
     "rules": {
-      "semi": ["error", "always"],
-      "quotes": ["error", "double"]
+      "react-hooks/rules-of-hooks": "error",
+      "react/jsx-uses-react": "error",        // https://github.com/eslint/eslint/issues/11183
+      "react/jsx-uses-vars": ["error"],       // https://github.com/eslint/eslint/issues/8226
+
+      "semi": ["error", "never"],
+      "quotes": ["error", "single"]
     }
 };

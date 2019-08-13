@@ -7,7 +7,7 @@ const getRandomGreeting = () => {
         case 0: return 'Hello';
         case 1: return 'Howdy';
         case 2: return 'Greetings to you'
-        case 3: return 'Hail'
+        case 3: return "Hail"
     }
 }
 
