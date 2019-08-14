@@ -14,12 +14,13 @@ module.exports = {
             "jsx": true
         },
         "ecmaVersion": 2018,
-        "sourceType": "module"
+        "sourceType": "module",
+        "project": "./tsconfig.json",
     },
     "plugins": [
       "react",
       "react-hooks",
-      "@typescript-eslint"
+      "@typescript-eslint/tslint"
     ],
     "rules": {
       "react-hooks/rules-of-hooks": "error",
@@ -27,6 +28,9 @@ module.exports = {
       "react/jsx-uses-vars": ["error"],       // https://github.com/eslint/eslint/issues/8226
 
       "semi": ["error", "never"],
-      "quotes": ["error", "single"]
+      "quotes": ["error", "single"],
+      "@typescript-eslint/tslint/config": ["warn", {
+        "lintFile": "./tslint.json", // path to tslint.json of your project
+      }],
     }
 };
