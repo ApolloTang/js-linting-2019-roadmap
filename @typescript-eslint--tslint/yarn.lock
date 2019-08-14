@@ -48,14 +48,6 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@typescript-eslint/eslint-plugin-tslint@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin-tslint/-/eslint-plugin-tslint-1.13.0.tgz#4739e61ebd235575ff4e9c35d607d6d2be3ac3aa"
-  integrity sha512-JkxJJv0LthtYw1qZ8XE8eFqumkFQu0BQw6UoG+FhgBmwnPiqlY2siRubQM2yEwY4SERd226c17X4GNPT1tc86w==
-  dependencies:
-    "@typescript-eslint/experimental-utils" "1.13.0"
-    lodash.memoize "^4.1.2"
-
 "@typescript-eslint/eslint-plugin@^1.13.0":
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-1.13.0.tgz#22fed9b16ddfeb402fd7bcde56307820f6ebc49f"
@@ -702,11 +694,6 @@ levn@^0.3.0, levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
-
-lodash.memoize@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
-  integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
 lodash.unescape@4.0.1:
   version "4.0.1"
