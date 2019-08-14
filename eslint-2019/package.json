@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "lint": "eslint ./src/**/*.*"
+  },
   "devDependencies": {
     "@types/react": "^16.9.1",
     "@types/react-dom": "^16.8.5",
@@ -8,9 +11,5 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "typescript": "^3.5.3"
-  },
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
   }
 }
