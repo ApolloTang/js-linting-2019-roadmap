@@ -1,0 +1,14 @@
+{
+  "name": "tslint-2019",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.1",
+    "tslint-react-hooks": "^2.2.1"
+  }
+}
